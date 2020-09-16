@@ -1,29 +1,33 @@
 ---
 layout: page
-title: About
+title: About BaNSC
 permalink: /about/
 ---
 
-[Reverie](https://github.com/amitmerchant1990/reverie) is a Jekyll theme which is simple and opinionated. It's actually a fork of [jekyll-now](https://github.com/barryclark/jekyll-now) with some additional features and personal touches which I've implemented to suit my needs for [my blog](https://www.amitmerchant.com).
+**Blockchain and Network Security Circle** is a growing open-community for students and professionals working to build up the Blockchain ecosystem and contributing to the Internet of the Future. 
 
-This is a plug-and-play Jekyll theme which you can use on GitHub Pages without even setting up a local environment.
+Even if you are a PhD in Distributed networks or have you just heard about Blockchain in the last workshop you attended, you are so welcome to this community. All we need is the commitment to share and grow with the community. We welcome every one across the world. Once a part of the community, you can use all the resources of the community, from the learning resources to the connections. 
 
-## Features
 
-- Command-line free fork-first workflow, using GitHub.com to create, customize and post to your blog
-- Fully responsive and mobile optimized base theme
-- Sass/Coffeescript support using Jekyll 2.0
-- Free hosting on your GitHub Pages user site
-- All the SEO goodies comes in-built
-- Markdown blogging
-- Syntax highlighting using Pygments
-    - [Dracula syntax theme](https://draculatheme.com/) included
-- Disqus commenting
-- Google Analytics integration
-- Fuzzy search across blog posts
-- Pagination of posts works out-of-the-box.
-- Categorize posts out-of-the box
-- RSS Feed
-- In-built sitemap
+## Vision
 
-Learn more about it [here](https://github.com/amitmerchant1990/reverie) on how to get started.
+Our vision is to develop an Open student community where people across the world can come together to discuss the topics related to Blockchain and its Network & Security aspects. This community should work to return some values to the world and the Blockchain ecosystem.
+
+
+## Activities
+
+- Research Paper Discussions 📰
+
+- Study Jams 🍟 x🍶 
+
+- Talks Learn from the Experiences
+
+- Blogs Pen it down... 🖊️
+
+- Open-Source Projects🖌️ 😄
+
+- Researches Closed Group 👥🌏
+
+- Open to all Developer Community (on Discord) 🕸️
+
+
