@@ -5,6 +5,7 @@ import {
   FaLinkedinIn,
   FaTwitter,
   FaFacebook,
+  FaInstagram,
   FaInfo,
   FaWeixin
 } from "react-icons/fa";
@@ -14,7 +15,7 @@ class Social extends React.Component {
   render() {
     const fillColor = this.props.isFull ? "#23B4A5" : "#73737d";
     const sizeUp = this.props.isFull ? "23px" : "21px";
-    const mbUp = this.props.isFull ? "mb-5 " : "mb-4";
+    const mbUp = this.props.isFull ? "mb-4 " : "mb-3";
 
     return (
       <SocialBar>
@@ -51,6 +52,13 @@ class Social extends React.Component {
           target="_blank"
         >
           <Twitter size={sizeUp} className={mbUp} color={fillColor} />
+        </a>
+        <a
+          href="https://www.instagram.com/banscindia"
+          rel="noopener noreferrer"
+          target="_blank"
+        >
+          <Instagram size={sizeUp} className={mbUp} color={fillColor} />
         </a>
         <a
           href="https://www.facebook.com/banscindia"
@@ -143,6 +151,19 @@ const PeopleFill = styled(BsPeopleFill)`
   }
 `;
 const Facebook = styled(FaFacebook)`
+  cursor: pointer;
+  transition: all 0.3s;
+  &:hover {
+    transition: all 0.3s;
+    transform: scale(1.3) rotate(360deg);
+  }
+
+  @media (max-width: 580px) {
+    color: #73737d !important;
+    margin-right: 0.5rem;
+  }
+`;
+const Instagram = styled(FaInstagram)`
   cursor: pointer;
   transition: all 0.3s;
   &:hover {

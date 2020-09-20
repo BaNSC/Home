@@ -54,7 +54,7 @@ class Footer extends React.Component {
 
   render() {
     return (
-      <div>
+      <div className="mt-5 pt-5">
         <Social isFull={this.state.isBarFull} />
         <ProgressBar
           barColor={this.state.progressBarColor}
