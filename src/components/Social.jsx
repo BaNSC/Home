@@ -40,7 +40,7 @@ class Social extends React.Component {
           <Github size={sizeUp} className={mbUp} color={fillColor} />
         </a>
         <a
-          href="https://www.linkedin.com/in/company/banscindia/"
+          href="https://www.linkedin.com/company/banscindia/"
           rel="noopener noreferrer"
           target="_blank"
         >
