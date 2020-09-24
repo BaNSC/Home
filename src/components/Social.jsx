@@ -7,7 +7,7 @@ import {
   FaFacebook,
   FaInstagram,
   FaInfo,
-  FaWeixin
+  FaWeixin,
 } from "react-icons/fa";
 import { BsPeopleFill } from "react-icons/bs";
 
@@ -26,10 +26,7 @@ class Social extends React.Component {
         >
           <PeopleFill size={sizeUp} className={mbUp} color={fillColor} />
         </a>
-        <a
-          href="https://discuss.bansc.tech/"
-          rel="noopener noreferrer"
-        >
+        <a href="https://discuss.bansc.tech/" rel="noopener noreferrer">
           <Weixin size={sizeUp} className={mbUp} color={fillColor} />
         </a>
         <a
@@ -67,12 +64,12 @@ class Social extends React.Component {
         >
           <Facebook size={sizeUp} className={mbUp} color={fillColor} />
         </a>
-        <a
+        {/* <a
           href="/about"
           rel="noopener noreferrer"
         >
           <About size={sizeUp} className={mbUp} color={fillColor} />
-        </a>
+        </a> */}
       </SocialBar>
     );
   }

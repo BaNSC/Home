@@ -1,6 +1,6 @@
 import React from "react";
 import Layout from "../layout/Layout";
-import { Home } from "../portofolio_sections";
+import { AboutContent, Home } from "../portofolio_sections";
 
 class Portofolio extends React.Component {
   render() {
@@ -10,6 +10,7 @@ class Portofolio extends React.Component {
         onTheme={this.props.onThemeChange}
       >
         <Home />
+        <AboutContent />
       </Layout>
     );
   }

@@ -25,10 +25,7 @@ class Header extends React.Component {
       <HeaderContainer className="mb-4">
         <Head>
           <Box>
-            <a
-              href="/"
-              rel="noopener noreferrer"
-            >
+            <a href="/" rel="noopener noreferrer">
               <Profile alt="profile" src={ProfilePicture} />
             </a>
             <div>
@@ -40,16 +37,11 @@ class Header extends React.Component {
         <SwitcherContainer>
           <Switcher>{themeSwitch} </Switcher>
         </SwitcherContainer>
-          <a
-            href="/join"
-            rel="noopener noreferrer"
-          >
-            <ShowResume>
-            <Btn>
-              Join BaNSC
-            </Btn>
-            </ShowResume>
-        </a>
+        <ShowResume>
+          <Anchor href="/join" rel="noopener noreferrer" className="">
+            <Btn>Join BaNSC</Btn>
+          </Anchor>
+        </ShowResume>
       </HeaderContainer>
     );
   }
@@ -126,4 +118,8 @@ const ShowResume = styled.div`
 const Btn = styled(Button)`
   display: flex;
   align-items: center;
+`;
+
+const Anchor = styled.a`
+  text-decoration: none !important;
 `;

@@ -5,16 +5,16 @@ import styled from "styled-components";
 const Home = () => {
   return (
     <div className="mt-3 pt-3">
-      <Col className="mb-5 p-0">
+      <Col className="mb-4 p-0">
         <Title className="font-title">
-          Building Community <br/>
+          Building Community <br />
           for the next Internet
         </Title>
       </Col>
       <P>
-        Our vision is to develop an Open student community where people across 
-        the world can come together to discuss the topics related to Blockchain 
-        and its Network & Security aspects.
+        Our vision is to develop an Open student community where people across
+        the world can come together to discuss the topics related to Blockchain
+        and its Network &amp; Security aspects.
       </P>
     </div>
   );
@@ -36,5 +36,6 @@ const Title = styled.h2`
 
 const P = styled.p`
   text-align: justify;
-  font-size: 18px;
+  font-size: 20px;
+  line-height: 2rem;
 `;

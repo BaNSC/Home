@@ -32,7 +32,7 @@ const teamMembersData = [
 
 const AboutContent = () => {
   return (
-    <div className="pt-3">
+    <div className="pt-5">
       <Col className="mt-2 p-0">
         <Title className="font-title">About BaNSC</Title>
       </Col>
@@ -92,5 +92,6 @@ const Title = styled.h2`
 
 const P = styled.p`
   text-align: justify;
-  font-size: 18px;
+  font-size: 20px;
+  line-height: 2rem;
 `;
