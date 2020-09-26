@@ -26,4 +26,4 @@ Mr. Anubhav is also a `Blockchain Trainer at 15+ Fortune 500 companies` like GE,
 
 
 
-<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdH0A7m8FTDBWjDpxli-hr_ih5WW18dy3uND0FrVewTKDvukA/viewform?embedded=true" width="100%" height="1500" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdH0A7m8FTDBWjDpxli-hr_ih5WW18dy3uND0FrVewTKDvukA/viewform?embedded=true" width="100%" height="1550" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
