@@ -6,6 +6,8 @@ author: BaNSC
 comments: true
 ---
 
+![BaNSC-live-1.0-banner.png](/images/BaNSC-live-1.0-banner.png)
+
 ***To receive an invite link to the live session by BaNSC's Professional Lead Mr. Anubhav Chaturvedi, please fill the form below.***
 
 #### Who is Mr. Anubhav Chaturvedi?
