@@ -13,7 +13,7 @@ import { BsPeopleFill } from "react-icons/bs";
 
 class Social extends React.Component {
   render() {
-    const fillColor = this.props.isFull ? "#23B4A5" : "#73737d";
+    const fillColor = this.props.isFull ? "#43987D" : "#73737d";
     const sizeUp = this.props.isFull ? "23px" : "21px";
     const mbUp = this.props.isFull ? "mb-4 " : "mb-3";
 
@@ -29,6 +29,7 @@ class Social extends React.Component {
         <a
           href="https://discuss.bansc.tech/"
           rel="noopener noreferrer"
+          target="_blank"
         >
           <Weixin size={sizeUp} className={mbUp} color={fillColor} />
         </a>
@@ -103,7 +104,7 @@ const Github = styled(FaGithub)`
   transition: all 0.3s;
   &:hover {
     transition: all 0.3s;
-    transform: scale(1.3) rotate(360deg);
+    transform: scale(1.5);
   }
 
   @media (max-width: 580px) {
@@ -116,7 +117,7 @@ const Linkedin = styled(FaLinkedinIn)`
   transition: all 0.3s;
   &:hover {
     transition: all 0.3s;
-    transform: scale(1.3) rotate(360deg);
+    transform: scale(1.5);
   }
 
   @media (max-width: 580px) {
@@ -129,7 +130,7 @@ const Twitter = styled(FaTwitter)`
   transition: all 0.3s;
   &:hover {
     transition: all 0.3s;
-    transform: scale(1.3) rotate(360deg);
+    transform: scale(1.5);
   }
 
   @media (max-width: 580px) {
@@ -142,7 +143,7 @@ const PeopleFill = styled(BsPeopleFill)`
   transition: all 0.3s;
   &:hover {
     transition: all 0.3s;
-    transform: scale(1.3) rotate(360deg);
+    transform: scale(1.5);
   }
 
   @media (max-width: 580px) {
@@ -155,7 +156,7 @@ const Facebook = styled(FaFacebook)`
   transition: all 0.3s;
   &:hover {
     transition: all 0.3s;
-    transform: scale(1.3) rotate(360deg);
+    transform: scale(1.5);
   }
 
   @media (max-width: 580px) {
@@ -168,7 +169,7 @@ const Instagram = styled(FaInstagram)`
   transition: all 0.3s;
   &:hover {
     transition: all 0.3s;
-    transform: scale(1.3) rotate(360deg);
+    transform: scale(1.5);
   }
 
   @media (max-width: 580px) {
@@ -181,7 +182,7 @@ const About = styled(FaInfo)`
   transition: all 0.3s;
   &:hover {
     transition: all 0.3s;
-    transform: scale(1.3) rotate(360deg);
+    transform: scale(1.5);
   }
 
   @media (max-width: 580px) {
@@ -194,7 +195,7 @@ const Weixin = styled(FaWeixin)`
   transition: all 0.3s;
   &:hover {
     transition: all 0.3s;
-    transform: scale(1.3) rotate(360deg);
+    transform: scale(1.5);
   }
 
   @media (max-width: 580px) {
