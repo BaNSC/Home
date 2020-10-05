@@ -6,7 +6,7 @@ class Footer extends React.Component {
     //progress bar
     percentage: 0,
     progressBarColor: {
-      primary: "#73737d",
+      primary: "#43987D",
       secondary: "#73737d",
     },
     isBarFull: false,
