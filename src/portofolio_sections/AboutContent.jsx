@@ -81,7 +81,7 @@ export default AboutContent;
 const Title = styled.h2`
   font-size: 80px;
   font-weight: bold;
-  background: -webkit-linear-gradient(315deg, #2a2a72 0%, #009ffd 45%);
+  background: -webkit-linear-gradient(315deg, #43987D 0%, #2DB98F 45%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 

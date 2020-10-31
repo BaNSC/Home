@@ -74,7 +74,7 @@ const Name = styled.div`
   font-size: 35px;
   margin-left: 1rem;
   font-weight: bold;
-  background: -webkit-linear-gradient(315deg, #2a2a72 0%, #009ffd 45%);
+  background: -webkit-linear-gradient(315deg, #43987D 0%, #2DB98F 45%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 `;
